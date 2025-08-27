@@ -1,0 +1,181 @@
+form
+{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+
+/*  Photo Editing */
+.pfp
+{
+    
+  border: 1px solid black;
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 10px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: none;
+  border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 74px;
+    left: 1325px;
+    text-overflow: hidden ;
+}
+
+.pfp:hover {
+  transform: scale(1.01);
+}
+
+.text
+{  
+    font-size: 10px;
+    padding: 25px 3px 0px 6px;
+    
+}
+
+/*------------------ Form Styling -------------------*/
+
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+  transition: transform 0.3s ease;
+}  
+form:hover {
+  transform: scale(1.01);
+}
+/* --------- Paragraph instructions--------------*/
+
+#item1 
+{
+  text-align: center;
+  font-size: 16px;
+  color: #444;
+  background: #f9fbe7;
+  padding: 10px;
+  border-left: 5px solid #8bc34a;
+  border-radius: 6px;
+}
+
+/* ----------------- Table --------------------- */
+
+table 
+{
+  width: 90%;
+  border-collapse: collapse; /* By default, table cells have space between their borders, collapse removes that gap, so all borders are merged into a single clean line.    */
+  margin: 20px auto;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;   /* Ensures that anything inside the table doesn’t spill outside the rounded corners*/
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.05);
+}
+
+th, td 
+{
+  border: 1px solid #ddd;
+  padding: 10px;      /* space between content and the element’s border */
+  text-align: center;
+}
+
+th 
+{
+  background: #26a69a;
+  color: white;
+}
+
+tr:nth-child(even)   /*CSS pseudo-class.selects rows on their order (1st, 2nd, 3rd, etc.),Here even no only */
+{
+  background: #f9f9f9;
+}
+
+tr:hover        /* styles when the mouse pointer hovers over an element */
+{
+  background: #e0f2f1;
+  transition: background 0.3s;    /* smooth animation effect */
+}
+
+/*--------------- Signature Section ------------*/
+
+/*.signatures 
+{
+  display: flex;
+  justify-content: space-around;         puts boxes side by side
+  margin-top: 50px;
+}
+
+.signature-box 
+{
+  width: 30%;                           each box takes about half
+  height: 80px;                         height of the signature area
+  border-bottom: 2px solid #004d40;     line to sign on
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+  padding-top: 30px;                    pushes text down
+  background: #f1f8e9;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+*/
+
+body
+{
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/*-------------------- Headings ----------------- */
+
+h2, h3 
+{
+  color: #004d40;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+h4 
+{
+  color: #00695c;
+  margin-top: 20px;
+}
+
+
+
+/*------------------ Input Boxes---------------------- */
+
+input[type="text"] {
+  padding: 6px 10px;
+  margin: 4px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #26a69a;
+  box-shadow: 0px 0px 6px rgba(38, 166, 154, 0.5);
+  outline: none;
+}
+
+/*------------------ Radio & Checkbox Labels------------ */
+
+label {
+  margin: 0 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  transform: scale(1.1);
+  margin-right: 5px;
+  cursor: pointer;
+  }
